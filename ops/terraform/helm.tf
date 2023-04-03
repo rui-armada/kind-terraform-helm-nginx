@@ -12,6 +12,6 @@ module "helm-release" {
   values = "./values.yaml"
   name = "helm"
 
-  depends_on = [module.kubectl-manifest-metallb]
+  //depends_on = [module.kubectl-manifest-metallb]
   
 }

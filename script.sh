@@ -4,5 +4,5 @@ kubectl wait --namespace metallb-system \
                 --for=condition=ready pod \
                 --selector=app=metallb \
                 --timeout=90s
-kubectl apply -f metallb.yaml
+kubectl apply -f ./ops/terraform/metallb.yaml
 #docker network inspect -f '{{.IPAM.Config}}' kind

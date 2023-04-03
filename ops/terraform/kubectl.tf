@@ -1,4 +1,4 @@
-provider "kubectl" {
+/*provider "kubectl" {
   load_config_file       = true
   config_path = var.kubernetes_cluster_config_path
 
@@ -50,4 +50,4 @@ EOT
 
   depends_on = [module.kubectl-manifest-metallb-native]
 
-}
+}*/
