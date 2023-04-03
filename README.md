@@ -1,0 +1,1 @@
+Deploy a nginx container on any container orchestration platform such as kubernetes or aws ecs. This must be deployed using any IAC tool for example terraform. The service should be deployed behind a load balancer and support multiple replicas using the orchestration tool you decided to use. post the code to a public github repo for us to view.
